@@ -3,24 +3,61 @@ body{
 	background: linear-gradient(120deg,darkblue,aliceblue);/*Bdarkblue ,blue y azure*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	font-family: "Helvetica", sans-serif;
 	
 }
 h1{
 	margin-top: 10%;
 	margin-bottom: 5%;
-		text-align: center;
-	color:aliceblue;
-}
-div{
-	background-color:darkblue ;
 	text-align: center;
 	color:aliceblue;
-	border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+}
+.Login{
+	text-align: center;
+	color:aliceblue;
     margin:5% 30%;
     max-width: 50%;
     max-height: 50%;
     padding-bottom:40px ;
     text-align: center;
 }
+ input.Ingreso{
+	text-align: center;
+	background: transparent;
+	width: 200px;
+	height: 20px;
+	border: none;
+	font-size: 18px;
+	padding: 0 15;
+	border-bottom: 2px solid #fff;
+	color:#ffff;
+	outline:none;
+}
+label.Ingreso{
+	top:50%;
+	left:15px;
+	transform: translateY(-50);
+	color:#fff;
+	font-size: 19px;
+	pointer-events: none;
+	transition: .3s;
+	}
+.boton{
+	background-color: darkblue;
+	color:#fff;
+	width: 200px;
+	height: 40px;
+	background: transparent;
+	border: none;
+}
+.boton:hover{
+	color: aliceblue;
+	background-color: #3156B9;
+	border-radius: 10px;
+} 
+
+input.menu_nav{
+
+}
+
+	
