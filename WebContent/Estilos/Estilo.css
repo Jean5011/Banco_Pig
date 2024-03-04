@@ -1,14 +1,16 @@
 @charset "ISO-8859-1";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/**********************************************/
 body{
-	background: linear-gradient(120deg,darkblue,aliceblue);/*Bdarkblue ,blue y azure*/
+	background: linear-gradient(120deg,darkblue,paleturquoise);/*Bdarkblue ,blue y azure*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family: "Helvetica", sans-serif;
+	color:aliceblue;
 	
 }
-h1{
+h1.Login{
 	margin-top: 10%;
-	margin-bottom: 5%;
 	text-align: center;
 	color:aliceblue;
 }
@@ -21,6 +23,14 @@ h1{
     padding-bottom:40px ;
     text-align: center;
 }
+.Login > i{
+	display: block;
+    text-align: left;
+	font-size: 40px;
+	margin-right:auto;
+	text-align: center;
+}
+
  input.Ingreso{
 	text-align: center;
 	background: transparent;
@@ -49,15 +59,80 @@ label.Ingreso{
 	height: 40px;
 	background: transparent;
 	border: none;
+	
 }
 .boton:hover{
-	color: aliceblue;
+	color: aliceblue; 
 	background-color: #3156B9;
 	border-radius: 10px;
 } 
-
-input.menu_nav{
-
+/*************************************************************/
+h1.Menu{
+	text-align: center;
+	padding:30px;
+	margin:0%;
+	font-size: 50px;
 }
-
-	
+div.Menu > label{
+	text-align: left;
+	font-size: 40px;
+	margin-right:20px;
+	float: letf
+}
+.Cuentas {
+	font-size: 30px;
+	text-align: center;
+	float: right;
+	padding: 0px 20px;
+}
+div.Menu-iconos{
+	background:transparent;
+	font-size: 30px;
+	padding: 10px 40px;
+	height: 350px;
+	width: 1300px;
+	margin:100px auto;
+}
+input.Menu-iconos{
+font-size: 30px;
+padding: 10px 40px;
+height: 50px;
+width: 1000px;
+}
+h2.Menu-iconos{
+font-size: 30px;
+padding: 10px 40px;
+height: 30px;
+width: 926px;
+margin:0px auto;
+border-radius: 15px;
+background-color:darkblue ;
+}
+.Menu > i{
+	display: inline;
+    text-align: left;
+	font-size: 40px;
+	margin-right:20px;
+	float: letf
+}
+.Menu-iconos > i{
+	text-align: center;
+	display: inline-block;
+	background:transparent;
+	padding: 20px 40px;
+	margin: 20px;
+	border: 2px solid blanchedalmond;
+	border-radius: 25px;
+}
+.Menu-iconos > i:hover{
+	background-color:darkblue ;
+}
+table.Menu-iconos{
+	font-size: 30px;
+    padding: 10px 40px;
+    height: 50px;
+    border: none;
+    width: 1000px;
+    margin: auto;
+    border-collapse: collapse;
+}
